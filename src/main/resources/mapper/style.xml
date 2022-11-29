@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.showmual.dao.StyleDao">
+	<resultMap id="diaryResult" type="colorVo">
+		<result property="menId" column="menId" />
+		<result property="styleCode" column="styleCode" />
+		<result property="hashtagCode" column="hashtagCode" />
+		<result property="temperature" column="temperature" />
+		<result property="imagePath" column="imagePath" />
+	</resultMap>
+
+	<select id="list" parameterType="hashMap" resultMap="lprodMap">
+		SELECT 
+	</select>
+</mapper>
